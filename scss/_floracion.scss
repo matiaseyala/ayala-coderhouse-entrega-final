@@ -1,0 +1,90 @@
+
+.flora {
+text-align: justify;
+}.container-img-semana {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    .img-semana1 {
+        width: 380px;
+        height: 380px;
+        padding: 20px;
+        margin: 5px
+    }
+
+    .img-semana2 {
+        width: 380px;
+        height: 380px;
+        padding: 20px;
+        margin: 5px
+    }
+
+    .img-semana3 {
+        width: 380px;
+        height: 380px;
+        padding: 20px;
+        margin: 5px;
+    }
+}
+
+
+
+.container-pistilo {
+    display: flex;
+    justify-content: center;
+
+
+    .img-pistilo {
+        width: 70%;
+        height: 20%;
+        padding: 20px;
+        margin: 5px;
+    }
+}
+
+
+
+.container-img-semana6 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.container-follaje {
+    display: flex;
+    justify-content: center;
+
+    .img-follaje {
+        width: 50%;
+        height: 20%;
+        padding: 20px;
+        margin: 5px;
+    }
+}
+
+
+
+.container-img-semana4 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    .img-semana5 {
+        width: 500px;
+        height: 500px;
+        padding: 20px;
+        margin: 5px;
+    }
+
+    .img-semana4 {
+        width: 500px;
+        height: 500px;
+        padding: 20px;
+        margin: 5px;
+    }
+}
+.consejo-flora{
+    font-family: 'Rasa', serif;
+}

@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    // background: url("https://www.patternpictures.com/wp-content/uploads/Kristal-subtle-glass-white-background-pattern-patternpictures-0220.png")!important;
+    // background-image: cover;
+    background-color: #C1CAA4;
+}
+$texto-titulo: 'Moo Lah Lah', cursive;
+
+.btn-primary {
+    background-color: green;
+}
+
+.btn-primary:hover {
+    background-color: rgb(119, 150, 119);
+}
+
+.btn-primary:active {
+    background-color: rgb(60, 129, 60);
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+    justify-content: center;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+   
+    a {
+        display: block;
+        padding: 0 10px;
+        color: green;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+
+    }
+ .collapse{
+    font-family: 'Days One', sans-serif;
+ }
+}
+
+
+.container-right {
+    display: flex;
+
+    div {
+        padding: 0 20px;
+    }
+}
+
+.bars {
+    color: black;
+    background: none;
+    border: none;
+    padding: 0 20px;
+    font-size: 30px;
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .container-right {
+        flex-direction: column;
+    }
+
+    .first-ul {
+        display: block;
+    }
+}
+
+
+nav a:hover {
+    background-color: #92cc92;
+}
+
+.container-fluid{
+    background-color: #78B078;
+    .dropdown-menu{
+        background-color: #78B078;
+        position: relative;
+        margin: auto;
+
+        scale: (1,1);
+    }  
+}
+
+.btn{
+    background-color: #78B078;
+}
+
+
+.img1 {
+    border: 1px black solid;
+    width: 150%;
+    height: 100%;
+    align-self: center;
+    justify-self: flex-start;
+    grid-column: 1 / 4;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(/imagenes/background-footer.svg);
+    background-size: cover;
+    .container-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+
+        .box-footer {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+
+            .logo {
+                width: 180px;
+            }
+
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            color: #343434;
+            font-weight: 700;
+            background: none;
+        }
+
+        a {
+            margin-top: 10px;
+            color: black;
+            font-weight: 600;
+        }
+
+        a:hover {
+            opacity: 0.8;
+        }
+
+        .fab {
+            font-size: 20px;
+        }
+    }
+}
+
+.box-copyright {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+
+    p {
+        margin-top: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+        color: black;
+    }
+}
+
+
+
+
+.nosotros {
+   
+    text-align: justify;
+
+
+
+}
+
+.img-nosotros {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+
+}
+
+
+.container-img-nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+h1 {
+    background-color: #91B57B;
+    text-align: center;
+    
+
+}
+
+h2 {
+    background-color: #E3E1B6;
+ 
+}
+
+h3 {
+    background-color: #D6CEA3;
+    font-family: 'Allerta', sans-serif;
+    text-align: justify;
+   
+}
+
+h4 {
+    background-color: #D6CEA3;
+}
+
+p {
+    font-family: 'PT Serif Caption', serif;
+    text-align: left;
+    padding: 15px;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: black;
+}
+@import "_vegetacion.scss";
+@import "_floracion.scss";
+@import "_glosario.scss";
+@import "_ferti.scss";
+@import "_plaga.scss";
+
+
+.carousel-item .img-box {
+    width: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.container-mosca-imagen {
+    justify-self: left;
+}
+
+
+
+
+figcaption {
+    
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+
+
+
+
+@media (max-width: 798px) {
+    .container-img-nosotros {
+        flex-direction: column;
+    }
+    .img-nosotros {
+        width: 100%;
+    }
+    .flora {
+        .container-img-semana {
+            flex-direction: column;
+            figure {
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+    .container-ferti{
+        .imagen-nombre{
+            margin: 0;
+            figure img {
+                width: 50%;
+            }
+        }
+    }
+    .list-group-glosario{
+        flex-direction: column;
+    }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 70px;
+    width: 70px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 80%, 80%;
+    border-radius: 30%;
+    border: 1px solid black;
+}
+
+@media (max-width: 1024px) {
+    .flora {
+        .container-img-semana1 {
+            flex-direction: column;
+            figure {
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+}
+.list-group{ 
+    font-family: 'Bakbak One', cursive;
+.list-group-item {
+    background-color: #C1CAA4;
+    border: 1px solid black;
+}
+}
+

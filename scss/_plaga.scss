@@ -1,0 +1,36 @@
+.container-plaga {
+      li{
+       
+        padding: 10px;
+        margin: 5px;
+    }
+    .container-texto{
+            padding: 20px;
+            font-size: 17px;   
+    }
+    .container-texto-principal{
+        padding: 20px;
+        // margin: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }    
+
+    
+    .container-imagen-plaga{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+                .plaga-img {
+                 width: 50%;
+                 height: 50%;
+                }
+            }
+ 
+     .row{
+         width: 100%;
+     }       
+.plaga-list{
+    font-family: 'Rasa', serif;
+    font-size: larger;
+}
+    }

@@ -1,0 +1,44 @@
+.glosario {
+    .texto-glosario-inicial{
+     font-size: 20px;
+     margin: 5px;
+     padding: 2px;
+     font-style: italic;
+    }
+    .texto-glosario-indice{
+        font-size: 17px;
+        margin: 5px;
+        padding: 2px;
+        font-style: italic;
+    }
+    .texto-glosario{
+        padding: 20px;
+        margin: 10px;
+        font-style: italic;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .glosario-indice {
+       
+    }
+
+  
+
+    .container-glosario {
+        .container-img-glosario {
+            display: flex;
+            justify-content: center;
+            .glosario-img {
+                width: 100%;
+                height: auto;
+            }
+
+        }
+    }
+    .list-group-glosario{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+

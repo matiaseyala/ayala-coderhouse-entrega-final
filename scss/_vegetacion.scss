@@ -1,0 +1,55 @@
+.vege {
+     .list-group{
+         background-color: black;
+     }
+
+    .vege-resumen {
+        padding: 30px;
+        border: 30px;
+        letter-spacing: 1px;
+        font-family: 'Rasa', serif;
+        padding: 30px;
+        margin: 5px;
+        font-size: larger;
+
+    }
+
+    .vege-texto {
+            p {
+            text-align: justify;
+        }
+    }
+
+    .container-img-vege {
+        display: flex;
+        justify-content: center;
+
+        .img-vege {
+            width: auto;
+            height: 50%;
+            padding: 45px;
+        }
+    }
+
+    p {
+        //font-family: 'Cormorant Upright', serif;
+
+        //font-family: 'EB Garamond', serif;
+
+        //font-family: 'Montserrat', sans-serif;
+
+        //font-family: 'Spectral SC', serif;
+        text-align: justify;
+        font-size: 17px;
+        font-style: italic;
+    }
+
+    li {
+        //font-family: 'Abel', sans-serif;
+        //font-family: 'Roboto', sans-serif;
+        // padding-left: 45px;
+    }
+
+
+
+}
